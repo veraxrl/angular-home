@@ -1,5 +1,8 @@
 div {
 	height:100px;
 	width:100px;
-	color:pink;
+	background-color:pink;
+}
+h1 {
+	color:red;
 }
