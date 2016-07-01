@@ -7,10 +7,9 @@
 	border: 1px solid black;
 }
 .top {
-	background: url("https://photos-5.dropbox.com/t/2/AABTJJjSlIMnGt5q6fLA5QQcOcf3EvQNCyT2grDVmjsiuA/12/189065206/jpeg/256x256/1/_/1/2/2016-03-26%2003.43.45.jpg/EJf6q48BGKFCIAIoAg/DFVDQuRcRE_MEuUSI77cEk7f5LtVdXxopjTKELA8ngs?size_mode=3&size=2048x1536");
+	background: url("http://dumsld4by7gdn.cloudfront.net/assets/backgrounds/about-main-4592d05f63d029bc507a249853a99997f10a27bcf2162fe0a78ec1ed2f233d28.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 100%;
+	background-size: cover;
 	height: 740px;
 }
 .bg-overlay {
@@ -27,13 +26,13 @@
 	background-size: 95%;
 	height: 80px;
 	margin-top: 16px;
-	margin-left: 20px;
+	margin-left: 40px;
 }
 .list ul li {
 	font: 30px "Lato",Helvetica,sans-serif;
 	line-height: 1.5;
 	color:white;
-	width: 50%;
+	width: 33%;
 	float: left;
 	text-shadow: 0 1px 1px #777;
 }
