@@ -119,7 +119,7 @@
 	height: 200px;
 	-webkit-filter:grayscale(100%);
 	filter: grayscale(100%);
-	margin:10px 0;
+	margin:15px 0;
 }
 .pic2 img:hover {
 	-webkit-filter:grayscale(0);
