@@ -76,25 +76,23 @@
 	background-color: #f3f6f8;
 }
 .passionate {
-	font:50px "Lato",Helvetica,sans-serif;
+	font: 50px "Lato",Helvetica,sans-serif;
 }
 .intro p {
 	font:18px "Lato",Helvetica,sans-serif;
 	height: 300px;
-	width: 350px;
+	width: 300px;
 	margin-top: 30px;
-	text-align: left;
+	text-align: center;
 }
-.intro-left, .intro-right {
+.intro-col {
 	padding: 50px 50px 80px 50px;
+	margin-top: 80px;
 }
 .pic1 img {
 	width:180px;
 	height:180px;
 	border-radius: 100%;
-}
-.intro-left, .intro-right {
-	margin-top: 80px;
 }
 .social {
 	margin-top: 50px;
@@ -145,5 +143,14 @@
 	}
 	.line2,.line3 {
 		font-size:20px;
+	}
+}
+
+@media (max-width: 450px) {
+	.intro {
+		height: 3000px;
+	}
+	.intro p {
+		margin-top: 0;
 	}
 }
