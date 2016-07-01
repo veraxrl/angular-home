@@ -82,7 +82,7 @@
 	font:18px "Lato",Helvetica,sans-serif;
 	height: 300px;
 	width: 300px;
-	margin-top: 30px;
+	margin: 30px auto;
 	text-align: center;
 }
 .intro-col {
@@ -110,7 +110,6 @@
 	height: 900px;
 }
 .gallery-title {
-	margin: 40px 0 50px 0;
 	font-size:30px;
 	font-family: arial,sans-serif;
 }
@@ -152,8 +151,6 @@
 	}
 	.intro p {
 		margin-top: 0;
+		margin-left: 20px;
 	}
-}
-.h2 {
-	text-align: center;
 }
