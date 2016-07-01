@@ -24,7 +24,7 @@
 	background: url("http://vestscholars.org/sites/gci.pratt.duke.edu/files/Pratt-Logo-RGB-Vertical-Blue.png");
 	background-repeat: no-repeat;
 	background-size: 50%;
-	height: 150px;
+	height: 180px;
 	margin-top: 16px;
 	margin-left: 30px;
 }
@@ -62,7 +62,7 @@
 	font-family:"Lato",Helvetica,sans-serif;
 }
 .line1 {
-	margin-top: 120px;
+	margin-top: 100px;
 	font-size:60px;
 }
 .line2 {
@@ -107,4 +107,22 @@
 	width: 50%;
 	height: 50%;
 	border-radius: 15%;
+}
+.gallery {
+	height: 900px;
+	border: 1px solid black;
+}
+.gallery-title {
+	margin: 40px 0 50px 0;
+	font-size:30px;
+}
+.pic2 img {
+	width: 200px;
+	height: 200px;
+	-webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+}
+.pic2 img:hover {
+	-webkit-filter:grayscale(0);
+	filter: grayscale(0);
 }
