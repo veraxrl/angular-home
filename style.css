@@ -25,6 +25,7 @@
 	background-repeat: no-repeat;
 	background-size: 50%;
 	height: 180px;
+	max-width: 400px;
 	margin: 40px;
 }
 .list ul li {
@@ -126,4 +127,24 @@
 .pic2 img:hover {
 	-webkit-filter:grayscale(0);
 	filter: grayscale(0);
+}
+@media (max-width: 1300px) {
+	.btn {
+		display: none;
+	}
+	.dropdown {
+		float:right;
+		margin-right: 40px;
+	}
+	.logo {
+		display: none;
+	}
+}
+@media (max-width: 900px) {
+	.line1 {
+		font-size:40px;
+	}
+	.line2,.line3 {
+		font-size:20px;
+	}
 }
