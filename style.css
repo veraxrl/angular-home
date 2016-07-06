@@ -1,6 +1,7 @@
 * {
 	box-sizing: border-box;
 	text-align: center;
+	text-decoration: none;
 }
 
 .box {
@@ -11,6 +12,9 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 740px;
+}
+.top.scroll {
+	background-color:black;
 }
 .bg-overlay {
 	position: absolute;
@@ -46,16 +50,26 @@
 	border:2px solid white;
 	color:white;
 	margin: 30px 15px;
-	padding: 16px 20px;
-	line-height: 1.5;
+	padding: 15px 15px;
 	font: 15px "Lato",Helvetica,sans-serif;
 	text-transform: uppercase;
+}
+.btn:hover {
+	box-shadow: 0px 2px 6px white;
+	transform:translate(0,-2px);
+}
+.nav-link {
+	color: white;
+}
+.nav-link:hover {
+	text-decoration: none;
+	color:white;
 }
 .dropdown {
 	color:white;
 	margin-top:40px;
 	font-size:30px;
-
+	display: none;
 }
 .line1, .line2, .line3{
 	color:white;
@@ -75,14 +89,13 @@
 	height:1000px;
 	background-color: #f3f6f8;
 }
-.passionate {
-	font: 50px "Lato",Helvetica,sans-serif;
-}
 .intro p {
 	font:18px "Lato",Helvetica,sans-serif;
-	height: 300px;
 	width: 300px;
 	margin: 30px auto;
+	text-align: center;
+}
+.intro h2 {
 	text-align: center;
 }
 .intro-col {
@@ -96,6 +109,9 @@
 }
 .social {
 	margin-top: 50px;
+}
+.social-pic:hover {
+	transform:translate(0,-2px);
 }
 .social-pic {
 	max-height: 100px;
@@ -131,6 +147,7 @@
 	.dropdown {
 		float:right;
 		margin-right: 40px;
+		display: block;
 	}
 	.logo {
 		display: none;
