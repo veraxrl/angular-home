@@ -1,36 +1,47 @@
 * {
-	box-sizing: border-box;
 	text-align: center;
 	text-decoration: none;
-}
-
-.box {
-	border: 1px solid black;
 }
 .top {
 	background: url("https://pbs.twimg.com/media/CmR-0oTWIAAzRAq.jpg:large");
 	background-repeat: no-repeat;
-	background-size: cover;
-	height: 740px;
+	background-size: 100% auto;
+	height: 650px;
 }
 .top.scroll {
 	background-color:black;
+}
+.logo {
+	background: url("pics/Pratt.png");
+	background-repeat: no-repeat;
+	background-size: 50%;
+	height: 150px;
+	max-width: 400px;
+	margin: 40px;
+}
+.nav {
+	height: 100px;
+}
+.btn {
+	background-color: transparent;
+	border:2px solid white;
+	color:white;
+	padding: 15px 15px;
+	font: 10px "Lato",Helvetica,sans-serif;
+	text-transform: uppercase;
+	margin:50px 10px 0 10px;
+}
+.btn:hover {
+	box-shadow: 0px 2px 6px white;
+	transform:translate(0,-2px);
 }
 .bg-overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
-	height: 740px;
+	height: 650px;
 	width: 100%;
 	background-color: rgba(0,0,0,0.3);
-}
-.logo {
-	background: url("http://vestscholars.org/sites/gci.pratt.duke.edu/files/Pratt-Logo-RGB-Vertical-Blue.png");
-	background-repeat: no-repeat;
-	background-size: 50%;
-	height: 180px;
-	max-width: 400px;
-	margin: 40px;
 }
 .list ul li {
 	font: 30px "Lato",Helvetica,sans-serif;
@@ -45,19 +56,6 @@
 	height: 80px;
 	padding: 20px;
 }
-.btn {
-	background-color: transparent;
-	border:2px solid white;
-	color:white;
-	margin: 30px 15px;
-	padding: 15px 15px;
-	font: 15px "Lato",Helvetica,sans-serif;
-	text-transform: uppercase;
-}
-.btn:hover {
-	box-shadow: 0px 2px 6px white;
-	transform:translate(0,-2px);
-}
 .nav-link {
 	color: white;
 }
@@ -71,13 +69,14 @@
 	font-size:30px;
 	display: none;
 }
-.line1, .line2, .line3{
+.line1, .line2, .line3, .headline{
 	color:white;
 	font-family:"Lato",Helvetica,sans-serif;
 }
 .line1 {
 	margin-top: 50px;
 	font-size:60px;
+	margin-left: 40%;
 }
 .line2 {
 	margin-top: 60px;
@@ -100,30 +99,38 @@
 }
 .intro-col {
 	padding: 50px 0;
-	margin-top: 80px;
+	margin: 50px 10px 0 10px;
 }
 .pic1 img {
 	width:180px;
 	height:180px;
 	border-radius: 100%;
 }
+.headline {
+	margin-left:50%;
+	width: 40%;
+	margin-top: 20px;
+
+}
 .social {
-	margin-top: 50px;
+	margin-top: 20px;
+	margin-left: 40%;
 }
 .social-pic:hover {
 	transform:translate(0,-2px);
 }
 .social-pic {
-	max-height: 100px;
-	max-width: 100px;
+	height: 30px;
+	width: 30px;
 }
 .social-pic img {
-	width: 50%;
-	height: 50%;
+	width: 100%;
+	height: 100%;
 	border-radius: 15%;
 }
 .gallery {
-	height: 900px;
+	height: 800px;
+	margin: 40px;
 }
 .gallery-title {
 	font-size:30px;
@@ -140,7 +147,7 @@
 	-webkit-filter:grayscale(0);
 	filter: grayscale(0);
 }
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
 	.btn {
 		display: none;
 	}
