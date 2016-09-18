@@ -11,5 +11,15 @@ app.config(function($routeProvider) {
 });
 
 app.controller('mainCtrl', function($scope, $http, $location, $routeParams, $route) {
- 
+	
+	var about = document.getElementById("to-about");
+	var personal = document.getElementById("to-personal");
+
+	about.onclick = function() {
+        document.body.scrollTop=650;
+    }
+    personal.onclick = function() {
+        document.body.scrollTop=1650;
+    }
+
 });
